@@ -1,0 +1,23 @@
+[user]
+	name = Kai Ruth
+	# email intentionally not set here -> per-machine (see include below)
+
+[core]
+	editor = nvim
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = true
+
+[merge]
+	conflictStyle = zdiff3
+
+[diff]
+	algorithm = histogram
+
+[alias]
+	st = status -b
+	lg = log --oneline --graph --decorate -20
+	last = log -1 HEAD --stat
