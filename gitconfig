@@ -4,6 +4,7 @@
 
 [core]
 	editor = nvim
+	email = contact@kairuth.ch
 
 [init]
 	defaultBranch = main
