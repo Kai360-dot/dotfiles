@@ -1,3 +1,10 @@
-# dotfiles
-The vimrc is adapted from amix vimrc, a very good quality vimrc.
-However there are some adjustments that I made to it in the bottom section.
+# dotfiles Kai Ruth
+
+Personal config files 
+
+## Symlinks, are established by running install.sh
+e.g. `tmux.conf` is symlinked to `~/.tmux.conf`:
+
+```bash
+ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+```
