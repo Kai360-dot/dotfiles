@@ -1,10 +1,10 @@
 [user]
 	name = Kai Ruth
-	# email intentionally not set here -> per-machine (see include below)
+	email = contact@kairuth.ch
+	useConfigOnly = true
 
 [core]
 	editor = nvim
-	email = contact@kairuth.ch
 
 [init]
 	defaultBranch = main
