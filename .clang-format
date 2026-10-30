@@ -1,0 +1,27 @@
+BasedOnStyle: Google
+# Allman braces, expanded to Custom so empty {} can stay on one line
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterObjCDeclaration: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: false
+  BeforeWhile: false
+  IndentBraces: false
+  # collapse empty {} onto one line instead of splitting over two
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+PointerAlignment: Left
+AlignConsecutiveAssignments: Consecutive
+ReferenceAlignment: Left
+DerivePointerAlignment: false
